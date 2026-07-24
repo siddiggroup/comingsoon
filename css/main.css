@@ -182,7 +182,24 @@ Primary use:
   left: 0;
 }
 
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
 
+.title-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.header h1{
+    margin: 0;
+    color: #fff;
+    font-size: 42px;
+}
 
 /*==================================================================
     TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
