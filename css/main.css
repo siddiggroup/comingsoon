@@ -41,7 +41,21 @@ Primary use:
 }
 /*------------------------------------------------------------------
 [ Input ]*/
+.bg-img1{
+    background-image: url("../images/bg01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+/* صورة الهاتف */
+@media (max-width:768px){
+    .bg-img1{
+        background-image: url("../images/bg01-mobile.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
 .wrap-input100 {
   width: 280px;
   max-width: 100%;
